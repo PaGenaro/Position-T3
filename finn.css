@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #2CB3F3;
+    position: absolute;
+    width: 1366px;
+    height: 1024px;
+}
+
+.mensagem{
+    text-align: center;
+    margin-top: 8em;
+}
+
+h2{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.fundo{
+    position: relative;
+    background-color:#fff;
+    top:3vh;
+    width: 880px;
+    height: 616px;
+    left: 243px;
+    border-radius: 100px 100px 0px 0px;
+
+}
+
+.corpo{
+
+    background-color:#FFE1C9;
+    position: absolute;
+    width: 692px;
+    height: 487px;
+    left: 96px;
+    top: 65px;
+    border-radius: 50%;
+}
+
+.olho1{
+    border-radius: 50%;
+    position: absolute;
+    width: 55.7px;
+    height: 55.7px;
+    bottom:405px;
+    background-color: black;
+    left: 260px;
+    
+}
+
+.olho2{
+    border-radius: 50%;
+    position: absolute;
+    width: 55.7px;
+    height: 55.7px;
+    background-color: black;
+    bottom:405px;
+    left: 560px;
+    
+}
+.input1{
+        position: absolute;
+        top: 300px;
+        left: 250px;
+        width: 373.96px;
+        height: 63.65px;
+        font-size:2rem;
+        display: block;
+        
+        
+}
+
+.input2{
+    position: absolute;
+    top: 360px;
+    left: 250px;
+    width: 373.96px;
+    height: 63.65px;
+    font-size:2rem;
+    
+
+}
+input{
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+button{
+    background: #55A603;  
+    position: absolute;
+    width: 220px;
+    height: 70px;
+    top: 885px;
+    left: 575px;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    color:#fff;
+    border-radius: 5px;
+}
